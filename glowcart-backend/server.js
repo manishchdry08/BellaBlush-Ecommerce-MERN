@@ -13,7 +13,7 @@ app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/admin", require("./routes/adminRoutes"));
 app.use("/api/user", require("./routes/userRoutes"));
 
-app.get("/", (req, res) => res.json({ message: "ShopBazaar API Running ✅" }));
+app.get("/", (req, res) => res.json({ message: "BellaBlush API Running ✅" }));
 
 const PORT = process.env.PORT || 5000;
 mongoose.connect(process.env.MONGO_URI)

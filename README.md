@@ -36,7 +36,7 @@ npm install
    - Create a `.env` file in the backend directory
    - Add the following variables:
 ```
-MONGO_URI=mongodb://localhost:27017/glowcart
+MONGO_URI=mongodb://localhost:27017/bellablush
 JWT_SECRET=your_jwt_secret_here
 PORT=5001
 ```
@@ -68,7 +68,7 @@ The application will be available at:
 ## Default Login Credentials
 
 ### Admin Account:
-- Email: admin@glowcart.com
+- Email: admin@bellablush.com
 - Password: admin123
 
 ### Test User Account:
